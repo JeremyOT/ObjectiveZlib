@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2423FAF814C3DB5100D37568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2423FAF714C3DB5100D37568 /* Foundation.framework */; };
+		2423FAFE14C3DB5100D37568 /* ObjectiveZlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423FAFD14C3DB5100D37568 /* ObjectiveZlib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2423FAF414C3DB5100D37568 /* libObjectiveZlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveZlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2423FAF714C3DB5100D37568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2423FAFB14C3DB5100D37568 /* ObjectiveZlib-Prefix.pch */ = {isa = PBXFileReference; path = "ObjectiveZlib-Prefix.pch"; sourceTree = "<group>"; };
+		2423FAFC14C3DB5100D37568 /* ObjectiveZlib.h */ = {isa = PBXFileReference; path = ObjectiveZlib.h; sourceTree = "<group>"; };
+		2423FAFD14C3DB5100D37568 /* ObjectiveZlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveZlib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2423FAF114C3DB5100D37568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2423FAF814C3DB5100D37568 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2423FAE914C3DB5100D37568 = {
+			isa = PBXGroup;
+			children = (
+				2423FAF914C3DB5100D37568 /* ObjectiveZlib */,
+				2423FAF614C3DB5100D37568 /* Frameworks */,
+				2423FAF514C3DB5100D37568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2423FAF514C3DB5100D37568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2423FAF414C3DB5100D37568 /* libObjectiveZlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2423FAF614C3DB5100D37568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2423FAF714C3DB5100D37568 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2423FAF914C3DB5100D37568 /* ObjectiveZlib */ = {
+			isa = PBXGroup;
+			children = (
+				2423FAFC14C3DB5100D37568 /* ObjectiveZlib.h */,
+				2423FAFD14C3DB5100D37568 /* ObjectiveZlib.m */,
+				2423FAFA14C3DB5100D37568 /* Supporting Files */,
+			);
+			path = ObjectiveZlib;
+			sourceTree = "<group>";
+		};
+		2423FAFA14C3DB5100D37568 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2423FAFB14C3DB5100D37568 /* ObjectiveZlib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2423FAF214C3DB5100D37568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2423FAF314C3DB5100D37568 /* ObjectiveZlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2423FB0114C3DB5100D37568 /* Build configuration list for PBXNativeTarget "ObjectiveZlib" */;
+			buildPhases = (
+				2423FAF014C3DB5100D37568 /* Sources */,
+				2423FAF114C3DB5100D37568 /* Frameworks */,
+				2423FAF214C3DB5100D37568 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveZlib;
+			productName = ObjectiveZlib;
+			productReference = 2423FAF414C3DB5100D37568 /* libObjectiveZlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2423FAEB14C3DB5100D37568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = JOT;
+			};
+			buildConfigurationList = 2423FAEE14C3DB5100D37568 /* Build configuration list for PBXProject "ObjectiveZlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2423FAE914C3DB5100D37568;
+			productRefGroup = 2423FAF514C3DB5100D37568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2423FAF314C3DB5100D37568 /* ObjectiveZlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2423FAF014C3DB5100D37568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2423FAFE14C3DB5100D37568 /* ObjectiveZlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2423FAFF14C3DB5100D37568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2423FB0014C3DB5100D37568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2423FB0214C3DB5100D37568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveZlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveZlib/ObjectiveZlib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2423FB0314C3DB5100D37568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveZlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveZlib/ObjectiveZlib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2423FAEE14C3DB5100D37568 /* Build configuration list for PBXProject "ObjectiveZlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2423FAFF14C3DB5100D37568 /* Debug */,
+				2423FB0014C3DB5100D37568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2423FB0114C3DB5100D37568 /* Build configuration list for PBXNativeTarget "ObjectiveZlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2423FB0214C3DB5100D37568 /* Debug */,
+				2423FB0314C3DB5100D37568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2423FAEB14C3DB5100D37568 /* Project object */;
+}
