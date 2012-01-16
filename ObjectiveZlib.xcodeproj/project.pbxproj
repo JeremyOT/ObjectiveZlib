@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2423FAF814C3DB5100D37568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2423FAF714C3DB5100D37568 /* Foundation.framework */; };
-		2423FAFE14C3DB5100D37568 /* ObjectiveZlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423FAFD14C3DB5100D37568 /* ObjectiveZlib.m */; };
+		2423FB0614C3DB5A00D37568 /* NSData+zlib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2423FB0414C3DB5A00D37568 /* NSData+zlib.mm */; };
+		2423FB0714C3DB5A00D37568 /* NSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2423FB0514C3DB5A00D37568 /* NSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2423FB0914C3DB7900D37568 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2423FB0814C3DB7900D37568 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2423FAF414C3DB5100D37568 /* libObjectiveZlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveZlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2423FAF714C3DB5100D37568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2423FAFB14C3DB5100D37568 /* ObjectiveZlib-Prefix.pch */ = {isa = PBXFileReference; path = "ObjectiveZlib-Prefix.pch"; sourceTree = "<group>"; };
-		2423FAFC14C3DB5100D37568 /* ObjectiveZlib.h */ = {isa = PBXFileReference; path = ObjectiveZlib.h; sourceTree = "<group>"; };
-		2423FAFD14C3DB5100D37568 /* ObjectiveZlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveZlib.m; sourceTree = "<group>"; };
+		2423FAFB14C3DB5100D37568 /* ObjectiveZlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveZlib-Prefix.pch"; sourceTree = "<group>"; };
+		2423FB0414C3DB5A00D37568 /* NSData+zlib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSData+zlib.mm"; sourceTree = "<group>"; };
+		2423FB0514C3DB5A00D37568 /* NSData+zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+zlib.h"; sourceTree = "<group>"; };
+		2423FB0814C3DB7900D37568 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2423FB0914C3DB7900D37568 /* libz.dylib in Frameworks */,
 				2423FAF814C3DB5100D37568 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +55,7 @@
 		2423FAF614C3DB5100D37568 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2423FB0814C3DB7900D37568 /* libz.dylib */,
 				2423FAF714C3DB5100D37568 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -59,8 +64,8 @@
 		2423FAF914C3DB5100D37568 /* ObjectiveZlib */ = {
 			isa = PBXGroup;
 			children = (
-				2423FAFC14C3DB5100D37568 /* ObjectiveZlib.h */,
-				2423FAFD14C3DB5100D37568 /* ObjectiveZlib.m */,
+				2423FB0414C3DB5A00D37568 /* NSData+zlib.mm */,
+				2423FB0514C3DB5A00D37568 /* NSData+zlib.h */,
 				2423FAFA14C3DB5100D37568 /* Supporting Files */,
 			);
 			path = ObjectiveZlib;
@@ -81,6 +86,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2423FB0714C3DB5A00D37568 /* NSData+zlib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2423FAFE14C3DB5100D37568 /* ObjectiveZlib.m in Sources */,
+				2423FB0614C3DB5A00D37568 /* NSData+zlib.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
